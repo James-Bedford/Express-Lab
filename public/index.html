@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Untitled</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <section class="contact-clean">
+      <form action="/contact-form" method="POST">
+        <h2 class="text-center">Contact us</h2>
+        <div class="mb-3">
+          <input
+            class="form-control"
+            type="text"
+            name="name"
+            placeholder="Name"
+          />
+        </div>
+        <div class="mb-3">
+          <input class="form-control" type="email" name="email"
+          placeholder="Email"
+        </div>
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            name="message"
+            placeholder="Message"
+            rows="14"
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <button class="btn btn-primary" type="submit">send</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
